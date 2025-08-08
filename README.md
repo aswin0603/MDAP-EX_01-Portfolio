@@ -686,7 +686,6 @@ section {
   animation: floatUp 1s ease-out both;
 }
 
-/* Optional vertical offset for a nice staggered layout */
 .review-item:nth-child(1),
 .review-item:nth-child(3) {
   transform: translateY(20px);
@@ -838,7 +837,7 @@ section {
   outline-offset: 2px;
 }
 
-/* Clickable areas - added padding for better touch targets */
+/* Clickable areas */
 .navbar nav a,
 .cta-btn,
 .btn {
